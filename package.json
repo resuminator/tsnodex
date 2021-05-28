@@ -4,12 +4,11 @@
   "description": "TypeScript + Node + Express Starter Template",
   "main": "dist/index.js",
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .ts",
     "start": "tsc && node dist/index.js",
-    "dev": "nodemon --config nodemon.json src/index.ts",
-    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
+    "dev": "nodemon --config nodemon.json ./index.ts"
   },
   "repository": {
     "type": "git",
