@@ -1,0 +1,44 @@
+{
+  "name": "tsnodex",
+  "version": "1.0.0",
+  "description": "TypeScript + Node + Express Starter Template",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts",
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resuminator/tsnodex.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Resuminator",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/resuminator/tsnodex/issues"
+  },
+  "homepage": "https://github.com/resuminator/tsnodex#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.2"
+  }
+}

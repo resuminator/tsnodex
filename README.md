@@ -1,2 +1,2 @@
 # tsnodex
-TypeScript + Nodejs + Express Starter Template
+A TypeScript + Nodejs + Express Starter Template with Nodemon
