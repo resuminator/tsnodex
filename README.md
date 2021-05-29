@@ -20,5 +20,3 @@ npm run dev
 ```
 
 This will run your server on `PORT: 5000`. Port is defined in `index.ts` and you can change it to any valid port.
-
-__NOTE:__ Remember to update the PORT value in the `./config/cors-config.ts` file also.
